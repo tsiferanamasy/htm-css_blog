@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Web Code</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="topbar">
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="astuces.html">Astuces</a>
+                <a href="cours.html">Cours</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="social">
+                <a href="#" title="Facebook" class="social-img"><img src="image/facebook.png" title="Facebook"></a>
+                <a href="#" title="Twitter" class="social-img"><img src="image/twitter.png" title="Twitter"></a>
+            </div>
+        </header>
+        <div class="banniere">
+            <img src="image/header.jpg">
+        </div>
+        <main class="main">
+            <article class="article">
+                <h2 class="article-title">Comment fonctionne un site web?</h2>
+                <p>A présent, essayons de comprendre de manière simple comment fonctionne un site web.</p>
+
+                <p>En fait, surfer sur le Web c’est un échange. Waouh c’est beau ! Non vraiment le Web est un système d’échange entre un client et un serveur.</p>
+
+                <p>Le client c’est nous, c’est notre navigateur Web, c’est lui qui va nous permettre de voir le Web depuis notre ordinateur, smartphone ou tablette. C’est celui que vous connaissez sans doute sous le nom de Chrome, Firefox, Safari, Internet Explorer, etc. Et le serveur, c’est en fait un ordinateur puissant qui stocke et héberge des sites Web. C’est sur cet ordinateur que se trouvent les pages Web, c’est à dire tous les fichiers du site internet auquel on veut accéder. Le but du serveur web est de servir des clients, d’où le nom « serveur ».</p>
+
+                <p class="special-title">Comment se passe la communication entre le client et le serveur?</p>
+
+                <p>Le client accède à une page Web en utilisant l’adresse d’un site web – appelée URL – dans son navigateur. Par exemple, l’URL http://monsite.fr/mondossier/mapage.html</p>
+
+                <p>On peut décomposer l’URL en plusieurs parties :</p>
+
+                <p>– “http”, c’est le nom du protocole de communication entre le client et le serveur,</p>
+
+                <p>– “mon site.com” est le nom de domaine du site Web auquel on veut accéder,</p>
+
+                <p>– “mon dossier/ma page.html” est l’endroit où se trouve la page dans le site web.</p>
+
+                <p>La communication entre client et serveur se fait en trois étapes : Premièrement, le client commande une page Web au serveur. Il saisit l’URL d’un site dans son navigateur. Celui-ci envoie immédiatement une requête web au serveur.</p>
+
+                <p>Ensuite, le serveur prépare cette commande c’est-à-dire la page Web en question. Le serveur va se charger de traiter la requête et renvoyer les données demandées (page web, image, vidéo…).</p>
+
+                <p>Et enfin, le navigateur interprète les données reçues et les renvoient au client qui va les afficher directement sur notre écran</p>
+
+                <p class="special-title">Quelles sont les différentes sortes de sites web?</p>
+
+                <p>Parfois, le rôle du serveur est vraiment simple, c’est le cas pour les sites Web statiques. Le client envoie une requête au serveur qui se contente de renvoyer la page demandée. Le serveur ne fait aucun travail sur la page en question, d’où le terme “statique”. On utilise un site statique lorsque l’on a juste besoin de présenter des informations. On parle alors de site vitrine. Créer une page web statique est très simple et est à la portée de tous. Mais parfois le serveur doit bosser un peu plus dur et c’est le cas pour les sites Web dynamiques. Lorsque le client commande une page au serveur, le serveur prépare cette commande. Il fait un vrai travail dessus avant de la renvoyer au client. C’est grâce à ça que les pages Web peuvent être personnalisées en fonction de chaque client ou en fonction de données externes au site. Par exemple Facebook est un site dynamique. Le contenu est différent et personnalisé pour chaque utilisateur.</p>
+
+                <p class="special-title">De quoi sont composées nos pages Web?</p>
+
+                <p>Comme vous l’avez compris, la visite d’un site Web est le résultat d’une communication entre un client et un serveur. Ce que le client, notre navigateur Web, recevra, sera écrit en langage client, c’est la partie visible de l’Iceberg souvent appelée “Front-End”. Par contre, tout le travail qu’effectuera le serveur sur nos pages Web avant de les envoyer au client sera écrit en langage serveur c’est la partie cachée de l’Iceberg souvent appelée “Back-End”.</p>
+
+                <p class="special-title">CMS (Content Management System)</p>
+
+                <p>Avant de finir, j’aimerais aussi vous parler des CMS. Vous avez sans doute entendu parler de WordPress, et bien il s’agit d’un CMS. Les CMS sont en fait des sites Web dynamiques clé en main. C’est génial pour quelqu’un qui ne sait pas coder parce qu’il pourra créer un site Web assez rapidement. Il sera tout de même limité dès qu’il voudra un petit peu le personnaliser et c’est pourquoi il est préférable de connaître les bases du développement Web même si on décide de travailler avec un CMS.</p>    
+            </article>
+            <article class="article">
+                <h2 class="article-title">Qu'est ce qu'un developpement Front-end?</h2>
+                <p>si vous ne savez pas ce qu’est un client,un serveur ou que vous ne connaissez pas la différence entre site Web statique et dynamique,lisez d’abord ceci</p>
+
+                <p class="special-title">Qu’est ce que le front-end?</p>
+
+                <p>c’est la partie du code qui est reçue par le client.Le client c’est notre navigateur web.</p>
+
+                <p class="special-title">Le navigateur Web</p>
+
+                <p>Notre navigateur c’est l’outil qui va nous permettre de voir le web.Les plus connus sont:Chrome,Firefox,Safari,Internet Explorer,etc.</p>
+
+                <p>On peut voir comme une sorte de traducteur,c’est-à-dire qu’il va recevoir du code et nous le montrer sous forme visuelle,il va afficher nos pages Web.D’ailleurs,ils n’ont pas tous la meme façon de traduire ce code et lorsque l’on codera,on devra faire attention aux spécialités de certains navigateurs web.</p>
+
+                <p>Le code client que notre navigateur peut comprendre est composé de 3 langages différents:HTML,CSS et Javascript et c’est l’ensemble de ces 3 langages qui va composer nos pages web.</p>
+
+                <p class="special-title">HTML(Hyper Text Markup Langage)</p>
+
+                <p>HTML est un langage balisage.Il va nous permettre de représenter la structure,le squelette de nos pages web.</p>
+
+                <p>Par exemple:un titre,un paragraphe,une image ou une liste.</p>
+
+                <p class="special-title">CSS(Cascading Styles Sheets)</p>
+
+                <p>c’est un langage qui va décorer nos pages web.Il va désigner nos élements HTML à l’aide de sélecteurs et va leur appliquer un style.</p>
+
+                <p>C’est lui qui est responsable des couleurs,des tailles,de la mise en page,etc.</p>
+
+                <p class="special-title">Javascript</p>
+
+                <p>Un site Web peut etre composé uniquement d’HTML et de CSS,mais si on veut lui insuffler un peu de vie on aura besoin de javascript,qui lui,est un vrai langage de programmation,avec des boucles,des conditions…</p>
+
+                <p>Il sera responsable de l’interactivité et de la logique qu’il y a derrière nos pages web.Par exemple si on veut ouvrir un menu en cliquant sur un bouton particulier,on le fera avec du Javascript.</p>
+
+                <p>Voila pour les 3 langages qui composent le code de nos pages Web:HTML,CSS et Javascript. Maintenant,il y a aussi des outils basés sur ces 3 langages qui nous permettent de coder plus rapidement et plus simplement.</p>
+
+                <p class="special-title">JQUERY</p>
+
+                <p>jQuery est une librairie Javascript très populaire. Son slogan c’est « Ecris moins et fais plus ». Son rôle est réellement de nous simplifier la vie ! C’est-à-dire que les tâches courantes de Javascript, qui nécessitent de nombreuses lignes de code, jQuery nous les rend accessible avec une seule ligne de code ! Il gère également pour nous les problèmes de compatibilité entre les navigateurs Web.</p>
+
+                <p class="special-title">BOOTSTRAP</p>
+
+                <p>Il y a aussi Bootstrap qui est un framework HTML, CSS et Javascript, c’est-à-dire une structure qui contient de nombreux composants prêts à l’emploi: boutons, listes déroulantes, menus, etc. Mais ce qui fait de Bootstrap une véritable star, c’est sa popularité pour développer « responsive ». Apprenez Bootstrap pas à pas avec le cours complet en ligne Bootstrap</p>
+
+                <p class="special-title">DEVELOPPEMENT RESPONSIVE</p>
+
+                <p>C’est quoi « responsive » ? Responsive, c’est une façon d’appréhender la conception d’un site Web. Notre site devient une page web flexible, il s’adapte automatiquement à la taille de l’écran. C’est-à-dire qu’il s’organisera différemment s’il est vu depuis un smartphone, une tablette ou un ordinateur.</p>
+
+                <p>Voilà c’est tout pour les bases du développement Front-end ! Maintenant, si on connaît uniquement le Front-end, on ne peut produire que des sites statiques. Si vous voulez construire des sites dynamiques, vous devrez aussi approfondir le développement Back-End</p>
+            </article>
+            <article class="article">
+                <h2 class="article-title">Qu'est ce que le developpement Back-end?</h2>
+                <p>Pour commencer je vous encourage aller voir mon post sur le fonctionnement d’un site Web pour mieux comprendre ce post là.</p>
+
+                <p>Alors, qu’est-ce que le développement Back-End ?</p>
+
+                <p>Le Back-End, c’est la partie du code qui est exécutée par le serveur, il s’agît du travail qu’il réalise sur les pages Web des sites dynamiques avant de les envoyer au client.</p>
+
+                <p class="special-title">Langage Serveur</p>
+
+                <p>Le travail du serveur sera codé dans un langage propre à lui : le langage serveur. C’est avec ce langage que notre serveur pourra décider et générer des pages Web à renvoyer à chaque client. Il est important de comprendre que le résultat final renvoyé au client est toujours une page composée uniquement d’HTML, de CSS et de Javascript.</p>
+
+                <p>Il existe de nombreux langages serveurs : PHP, Java, Python, Ruby , NodeJs, ASP.Net etc. Alors lequel choisir ? Quel est le meilleur langage serveur ?</p>
+
+                <p>En fait, tout dépend de vos connaissances en programmation. Si vous avez déjà manipulé un de ces langages, il sera alors plus rapide d’avancer avec. Bref, il n’y a pas de meilleur choix. Je vous recommande le langage pour lequel vous serez certains d’avoir quelqu’un pour vous aider.</p>
+
+                <p class="special-title">PHP</p>
+
+                <p>Dans la formation développeur Web, j’ai décidé de vous faire débuter avec PHP. Pourquoi PHP? Très grande communauté : ce qui peut vous aider rapidement sur Internet si vous avez des problèmes Facile à utiliser : idéal pour les débutants WordPress est en PHP : ce qui peut être bien utile si vous voulez personnaliser vos sites WordPress.</p>
+
+                <p class="special-title">Les bases de données</p>
+
+                <p>Quel que soit le site Web dynamique que l’on veut faire, on aura souvent besoin d’enregistrer des informations pour les réutiliser plus tard. Par exemple, on peut avoir besoin de stocker les données concernant les utilisateurs de notre site. Notre serveur devra alors utiliser une base de données. C’est un ensemble de fichiers dans lequel les données sont stockées de façon organisée. Il y a plusieurs systèmes de bases de données : MySQL, Oracle, Microsoft SQL Server…</p>
+
+                <p>Dans la formation développeur Web, j’ai choisi d’utiliser MySQL car c’est de loin le plus utilisé parmi ceux qui sont gratuits. Pour accéder aux données, notre serveur utilisera encore un autre langage : le SQL (Search Query Language) qui fonctionne avec des requêtes. Exemple de requête SQL: Récupère la liste de tous les utilisateurs qui se sont inscrit le mois dernier. Retrouvez ce cours complet en ligne et découvrez les bases de données et le langage SQL.</p>
+
+                <p class="special-title">Formation Développeur Web</p>
+
+                <p>Voilà, j’espère que vous avez maintenant une meilleure vue d’ensemble sur le développement Web. Si vous voulez maintenant passer à l’action et que vous êtes motivés pour devenir développeur Web alors rejoignez-moi dans la formation sur le développement Web.</p>
+            </article>
+        </main>
+        <inside class="sidebar">
+            <h4 class="sidebar-title">Catégorie</h4>
+            <ul>
+                <li><a href="astuces.html">Astuces</a></li>
+                <li><a href="cours.html">Cours</a></li>
+                <li><a href="#">Intro web</a></li>
+            </ul>
+        </inside>
+    </body>
+</html>
